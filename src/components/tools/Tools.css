@@ -1,0 +1,22 @@
+.tools {
+    display: flex;
+    flex-direction: column;
+    color: black;
+}
+
+.tools > * {
+    margin: 20% 0;
+}
+
+.tools button {
+    background-color: white;
+    border: none;
+    height: 4%;
+    width: 5vw;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.tools > button:focus {
+    outline: none;
+}

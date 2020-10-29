@@ -1,0 +1,15 @@
+article {
+    background-color: white;
+    margin: 2% 20%;
+    padding: 2%;
+}
+
+article div {
+    display: flex;
+    justify-content: space-between;
+    margin: 10%;
+}
+
+article > div span {
+    margin: 0 4%;
+}

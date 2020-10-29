@@ -1,0 +1,26 @@
+.inputs {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputs div {
+    margin: 3% 0;
+    padding: 0 5%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+div input {
+    width: 30%;
+    text-align: center;
+    margin: 0 4%;
+}
+
+.picker-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.picker-container > * {
+    margin: 5% 0;
+}
